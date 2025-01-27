@@ -41,3 +41,8 @@ console.log("Array of Customers", customers); // Log the array of customers
 customers.push({name: "Customer 4", email: "Customer4@gmail.com", purchaseAmount: 250}); // Add Customer 4 to the array
 console.log("Updated Customer List", customers); // Log the updated array of customers
 
+// Task 5 - Order Processing System
+let order = {orderID: 001, customerName: "Customer Name", amount: 100}; // Declare the order of the objects as ID CustomerName and amount
+console.log("order details", order); // Log the details of the order
+let taxAmount = order.amount *= .1 // Calculate 10 percent of the order amount to find taxAmount
+console.log("tax amount: $", taxAmount) // Log the tax amount
