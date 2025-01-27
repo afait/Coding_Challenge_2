@@ -30,3 +30,14 @@ employee.department = "Employee Department 2"; // Update the employee department
 console.log("Updated Department", employee.department); // Log the updated employee department
 employee.position = "CEO"; // Updated employee position to CEO
 console.log("Updated employee position", employee.position) // Log the updated employee position
+
+// Task 4 - Customer Database
+let customers = [
+    {name: "Customer 1", email: "Customer1@gmail.com", purchaseAmount: 100},
+    {name: "Customer 2", email: "Customer2@gmail.com", purchaseAmount: 150},
+    {name: "Customer 3", email: "Customer3@gmail.com", purchaseAmount: 200}
+];
+console.log("Array of Customers", customers); // Log the array of customers
+customers.push({name: "Customer 4", email: "Customer4@gmail.com", purchaseAmount: 250}); // Add Customer 4 to the array
+console.log("Updated Customer List", customers); // Log the updated array of customers
+
